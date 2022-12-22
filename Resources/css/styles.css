@@ -1,0 +1,321 @@
+html {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+.navbar p {
+    margin: 0 3%;
+}
+
+.navbar a {
+    color: white;
+}
+
+.jumbotron {
+    background-image: url('../images/background.jpg');
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+    width: 100%;
+    min-width: 800px;
+    height: 600px;
+}
+
+.jumbotron h1 {
+    font-family: 'Spectral', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-right: 5%;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 999px) {
+    .club-med {
+        display: none;
+    }
+
+    .club-jumbo {
+        display: none;
+    }
+
+    .int-heading .int-h2 {
+        font-size: 2.4rem;
+    }
+
+    .int-heading .int-p {
+        font-size: 1rem;
+    }
+
+    .venues .ven-h2 {
+        font-size: 1.5rem;
+    }
+    
+    .testimonial h3 {
+        font-size: 1.25rem;
+    }
+
+    .tourney h3 {
+        font-size: 1.25rem;
+    }
+
+    .tourney h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1649px) {
+    .club-mini {
+        display: none;
+    }
+
+    .club-jumbo {
+        display: none;
+    }
+
+    .testimonial h3 {
+        font-size: 1.5rem;
+    }
+    
+    .testimonial p {
+        font-size: 1.1rem;
+    }
+
+    .tourney h3 {
+        font-size: 2rem;
+    }
+
+    .tourney h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .club-med {
+        display: none;
+    }
+
+    .club-mini {
+        display: none;
+    }
+
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    
+    .testimonial h3 {
+        font-size: 2rem;
+    }
+
+    .testimonial p {
+        font-size: 1.3rem;
+    }
+
+    .tourney h3 {
+        font-size: 2.5rem;
+    }
+
+    .tourney h2 {
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .club-jumbo {
+        background-color: rgba(204, 225, 243, .9);
+    }
+
+    .jumbotron h1 {
+        font-size: 4.5rem;
+    }
+
+    .int-heading .int-h2 {
+        font-size: 6rem;
+    }
+
+    .int-heading .int-p {
+        font-size: 2.5rem;
+    }
+
+    
+    .testimonial h3 {
+        font-size: 3rem;
+    }
+
+    .testimonial p {
+        font-size: 2rem;
+    }
+
+    .tourney h3 {
+        font-size: 3rem;
+    }
+
+    .tourney h2 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+}
+
+.intro {
+    width: 100%;
+    margin: 7.5% 0;
+}
+
+.int-heading {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.int-heading h2 {
+    font-family: 'Spectral', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 2%;
+    padding: 1% 0;
+}
+
+.int-heading p {
+    font-size: 1.4rem;
+    margin-left: 2%;
+    padding: 1% 0;
+}
+
+.venues {
+    width: 100%;
+    margin: 7.5% 0;
+}
+
+.venues h2 {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.golf-courses {
+    margin: 3% 2%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course h3 {
+    font-family: 'spectral', serif;
+    font-size: 1.5rem;
+    margin: 2% 0;
+}
+
+.test-container {
+    width: 100%;
+    background-color: darkolivegreen;
+    color: white;
+    margin: 7.5% 0;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.testimonial h3 {
+    font-family: 'great vibes', cursive;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.testimonial p {
+    font-family: 'great vibes', cursive;
+    margin-bottom: 2%;
+}
+
+.t1 {
+    margin-left: 3%
+}
+
+.t2 {
+    align-self: flex-end;
+    margin-right: 3%;
+}
+
+.buddies-container {
+    width: 100%;
+    margin: 7.5% 0;
+}
+
+.buddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.buddy img {
+    margin: 2% 2%;
+}
+
+.tourney {
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tourney h3, .tourney h2 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.navbar2 {
+    margin-top: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+
+.navbar2 p {
+    margin: 0 3%;
+}
+
+.navbar2 a {
+    color: white;
+}
